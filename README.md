@@ -1,31 +1,36 @@
-# 🛒 Panier de produits
+# 🌐 Mise en réseau avec routage inter-VLAN
 
 ## Description
 
-Ce projet est une petite application web réalisée dans le cadre de mes travaux pratiques en JavaScript.
+Ce projet consiste à concevoir une architecture réseau permettant de connecter plusieurs réseaux entre eux.
 
-L'objectif est de créer un panier de produits permettant à l'utilisateur de sélectionner des produits et de gérer les éléments ajoutés au panier.
+J'ai réalisé la configuration en reliant différents équipements réseau : des routeurs entre eux, des routeurs aux différents VLAN, puis en reliant l'ensemble à un **routeur central**. Celui-ci permet d'assurer la communication entre les différents réseaux et de former un réseau global.
 
-## Fonctionnalités
+L'objectif était de comprendre comment plusieurs réseaux distincts peuvent communiquer entre eux grâce au routage.
 
-* Affichage des produits
-* Ajout de produits au panier
-* Gestion des quantités
-* Calcul du contenu du panier
-* Interaction dynamique avec JavaScript
+## Objectifs
 
-## Technologies utilisées
+* Créer plusieurs réseaux VLAN
+* Relier les VLAN aux routeurs
+* Connecter plusieurs routeurs entre eux
+* Mettre en place un routeur central
+* Permettre la communication entre les différents réseaux
+* Configurer l'adressage IP
+* Tester la communication entre les différents équipements
 
-* HTML5
-* CSS3
-* JavaScript
+## Outil utilisé
 
-## Structure du projet
+* **Filius**
 
-* `index.html` : structure de la page
-* `fichier.css` : mise en forme
-* `script.js` : fonctionnement du panier
-* Images : produits utilisés dans l'application
+## Notions abordées
+
+* VLAN
+* Routage inter-VLAN
+* Routage entre routeurs
+* Routeur central
+* Adressage IP
+* Communication entre réseaux
+* Architecture réseau
 
 ## Contexte
 
@@ -34,5 +39,4 @@ Projet réalisé dans le cadre de ma formation en deuxième année de Génie Log
 ## Auteur
 
 **Grâce AMEZO**
-
 Étudiante en Génie Logiciel — IFNTI
